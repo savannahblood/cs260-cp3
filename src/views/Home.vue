@@ -12,21 +12,21 @@
   </div>
   <section id='about'>
     <div class='about-sec' id='online-signups'>
-      <div class='image' style='background-image: url("/assets/images/online-signups.jpg");'></div>
+      <div class='image' style='background-image: url("./images/online-signups.jpg");'></div>
       <div class='content'>
         <h2>Online Signups</h2>
         <p>Both new and returning clients can make accounts with just a few clicks. They can then learn about and sign up for classes. Everyone gets to save time by using technology to make class signups, forms, and communication more efficient.</p>
       </div>
     </div>
     <div class='about-sec odd' id='access'>
-      <div class='image' style='background-image: url("../assets/images/access.jpg");'></div>
+      <div class='image' style='background-image: url("./images/access.jpg");'></div>
       <div class='content'>
         <h2>Easily Accessible</h2>
         <p>You and all the teachers at your swim school can see the classes you offer, when they are, who has signed up, and how many spots are left. All the information is neatly organized and can be easily accessed in one place.</p>
       </div>
     </div>
     <div class='about-sec' id='web-presence'>
-      <div class='image' style='background-image: url("../assets/images/web-presence.jpg");'></div>
+      <div class='image' style='background-image: url("./images/web-presence.jpg");'></div>
       <div class='content'>
         <h2>Web Presence</h2>
         <p>Help new clients discover you through a modern and easy-to-use website. In today's world, a web presence is essential to the well-being of a company, and a snazzy-looking website is a huge step towards a healthy web presence.</p>
