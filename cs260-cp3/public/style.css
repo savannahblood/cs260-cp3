@@ -61,27 +61,27 @@ html {
 
 @font-face {
   font-family: 'Sphere Sans';
-  src: url('../fonts/SphereSans.ttf');
+  src: url('./fonts/SphereSans.ttf');
 }
 
 @font-face {
   font-family: 'Ballerine';
-  src: url('../fonts/Ballerine Script.ttf');
+  src: url('./fonts/Ballerine Script.ttf');
 }
 
 @font-face {
   font-family: 'Comfortaa';
-  src: url('../fonts/Comfortaa-Regular.ttf');
+  src: url('./fonts/Comfortaa-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Comfortaa Bold';
-  src: url('../fonts/Comfortaa-Bold.ttf');
+  src: url('./fonts/Comfortaa-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Comfortaa Light';
-  src: url('../fonts/Comfortaa-Light.ttf');
+  src: url('./fonts/Comfortaa-Light.ttf');
 }
 
 /* --- GENERAL --- */
@@ -583,7 +583,6 @@ header #hamburger {
   position: relative;
   background-color: var(--white);
   border-radius: 10px;
-  display: none;
 }
 
 header #hamburger .line {
@@ -659,7 +658,7 @@ header nav ul li #right-edge:visited {
   border-left: 1px solid rgba(0,0,0,0.2);
 }
 
-@media only screen and (max-width: 850px) {
+/*@media only screen and (max-width: 850px) {*/
   header {
     z-index: 10;
     height: auto;
@@ -712,7 +711,7 @@ header nav ul li #right-edge:visited {
     border-bottom-right-radius: 10px;
     border-left: 1px solid rgba(0,0,0,0.2);
   }
-}
+/*}*/
 
 @media only screen and (max-width: 410px) {
   header #logo:link img,

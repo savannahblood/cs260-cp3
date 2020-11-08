@@ -1,32 +1,32 @@
 <template>
+  <header>
+    <router-link to="/">
+      <img src="/images/logo.png">
+    </router-link>
+    <a href='index.html' id='logo'><img src='<%= BASE_URL %>logo.png'></a>
+    <a id='hamburger' data-toggle="collapse" href="#header-nav" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <div class='line' id='one'></div>
+      <div class='line' id='two'></div>
+      <div class='line' id='three'></div>
+    </a>
+    <nav id='header-nav' class='collapse'>
+      <ul>
+        <router-link to="/pricing">
+          <li class="menu-item pricing"><a href="#">Pricing</a></li>
+        </router-link>
+        <router-link to="/holidays">
+          <li class="menu-item holidays"><a href="#">Holidays</a></li>
+        </router-link>
+        <router-link to="/signup">
+          <li class="menu-item signup"><a href="#">Sign Up</a></li>
+        </router-link>
+        <router-link to="/login">
+          <li class="menu-item login"><a href="#">Log In</a></li>
+        </router-link>
+      </ul>
+    </nav>
+  </header>
   <div id="app">
-    <header>
-      <router-link to="/">
-        <img src="/images/logo.png">
-      </router-link>
-      <a href='index.html' id='logo'><img src='<%= BASE_URL %>logo.png'></a>
-      <a id='hamburger' data-toggle="collapse" href="#header-nav" role="button" aria-expanded="false" aria-controls="collapseExample">
-        <div class='line' id='one'></div>
-        <div class='line' id='two'></div>
-        <div class='line' id='three'></div>
-      </a>
-      <nav id='header-nav' class='collapse'>
-        <ul>
-          <router-link to="/pricing">
-            <li class="menu-item pricing"><a href="#">Pricing</a></li>
-          </router-link>
-          <router-link to="/holidays">
-            <li class="menu-item holidays"><a href="#">Holidays</a></li>
-          </router-link>
-          <router-link to="/signup">
-            <li class="menu-item signup"><a href="#">Sign Up</a></li>
-          </router-link>
-          <router-link to="/login">
-            <li class="menu-item login"><a href="#">Log In</a></li>
-          </router-link>
-        </ul>
-      </nav>
-    </header>
   </div>
 </template>
 
